@@ -5,4 +5,5 @@ definePageMeta({
 </script>
 <template>
     <h1>about us</h1>
+    <LayoutProfileUser />
 </template>
