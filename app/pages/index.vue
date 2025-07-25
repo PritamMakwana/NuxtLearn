@@ -1,4 +1,8 @@
-<script setup>
+<script setup lang="ts">
+
+const { $sayHello } = useNuxtApp();
+$sayHello("Pritam");
+
 const { sayHello } = useUtils();
 sayHello();
 </script>
