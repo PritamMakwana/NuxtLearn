@@ -1,5 +1,10 @@
 <script setup lang="ts">
 
+definePageMeta({
+    middleware: ['separate'],
+});
+
+
 const { $sayHello } = useNuxtApp();
 $sayHello("Pritam");
 
