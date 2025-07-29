@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import { resolve } from "path";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -15,4 +14,4 @@ export default defineNuxtConfig({
     ],
   },
 
-})
+});

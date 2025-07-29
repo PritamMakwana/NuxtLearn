@@ -8,6 +8,7 @@
           <NuxtLink to="/events"> Events</NuxtLink>
           <NuxtLink to="/events/10"> EventsId</NuxtLink>
           <NuxtLink to="/events/profile"> Profile</NuxtLink>
+           <NuxtLink to="/state-mangament"> State Mangament</NuxtLink>
         </li>
       </ul>
       <NuxtPage />
